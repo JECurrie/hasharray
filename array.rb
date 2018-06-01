@@ -1,0 +1,8 @@
+def array_each
+  arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  #arr.each { |number| puts number if number > 5 }
+  new_array = arr.select {|number| number%2 == 1} 
+  puts new_array
+end    
+
+array_each
